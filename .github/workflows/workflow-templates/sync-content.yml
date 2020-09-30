@@ -1,0 +1,14 @@
+name: Sync Content with S3 bucket
+
+on:
+  push:
+    branches: [ master, develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo 'Sync started'

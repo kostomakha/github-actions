@@ -1,0 +1,13 @@
+{
+  "name": "sync actionw",
+  "description": "Template for the sync action",
+  "iconName": "example-icon",
+  "categories": [
+    "JavaScript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    "^Dockerfile",
+    ".*\\.md$"
+  ]
+}
